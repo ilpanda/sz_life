@@ -1,12 +1,24 @@
+# 设置网站名称和作者
 site_name: 深圳生活小结
+site_author: ilpanda
+
+# 右上角 Github 地址，即项目名称
+repo_url: https://github.com/ilpanda/sz_life
+repo_name: ilpanda/sz_life
+
 theme:
+  # 设置主题为 material
   name: material
+  # 设置导航样式
   features:
     - navigation.indexes
+  icon: # github 地址的 logo
+    repo: fontawesome/brands/github
 
 # 搜索功能目前不支持中文，隐藏暂时搜索框。
-plugins: []
+plugins: [ ]
 
+# 设置目录顺序
 nav:
   - 概述: index.md
   - '下沙租房.md'
