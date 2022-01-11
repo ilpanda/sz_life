@@ -4,6 +4,9 @@ theme:
   features:
     - navigation.indexes
 
+# 搜索功能目前不支持中文，隐藏暂时搜索框。
+plugins: []
+
 nav:
   - 概述: index.md
   - '下沙租房.md'
