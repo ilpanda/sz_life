@@ -18,6 +18,10 @@ theme:
 # 搜索功能目前不支持中文，隐藏暂时搜索框。
 plugins: [ ]
 
+markdown_extensions:
+  # 支持修改图片宽高
+  - attr_list
+
 # 设置目录顺序
 nav:
   - 概述: index.md
